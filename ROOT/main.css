@@ -1,0 +1,143 @@
+html {
+	font-family: Trocchi;
+	line-height: 1.8;
+	background-color: #2B2B2B;
+	}
+	
+body {
+	width: 1100px;
+	margin: 0px auto 0px auto;
+	background-color: #F6F6F6;
+	}
+	
+header {
+	font-size: 500%;
+	line-height: 202px;
+	text-align: center;
+	font-family: Cinzel;
+	}
+	
+header img {
+	float: left;
+	}
+	
+main, footer {
+	padding-left: 150px;
+	padding-right: 150px;
+	}
+	
+nav {
+	margin-top: -2px;
+	font-size: 120%;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background-color: #006;
+}
+
+nav span {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.3s;
+	color: #009;
+	}
+	
+a:hover {
+	color: #006;
+	}
+	
+nav a:hover {
+	color: #090;
+	}
+	
+nav a {
+	color: #EEE;
+	}
+	
+main {
+	padding: 30px 200px 30px 200px;
+	font-size: 120%;
+	}
+	
+footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 1px dashed black;
+	}
+	
+td, th {
+	padding: 1px 5px;
+	text-align: center;
+	}
+
+	
+#bullets {
+	margin-left: 50px;
+	font-style: italic;
+	}
+	
+#bullets li {
+	list-style: square;
+	}
+	
+#news {
+	border: 2px solid #2B2B2B;
+	padding: 10px;
+	background-color: #F9F9F9;
+	margin-top: 100px;
+	}
+	
+#date {
+	font-weight: bold;
+	}
+
+.about {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+	
+@media only screen and (max-device-width: 768px) {
+	
+	html {
+		background-color: #F6F6F6;
+		}
+		
+	body {
+		margin: 0px 0px;
+		width: 100%;
+		}
+		
+	header {
+		font-size: 350%;
+		font-weight: bold;
+		}
+		
+	main {
+		padding-left: 100px;
+		padding-right: 100px;
+		}
+		
+	nav span {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+		
+	footer {
+		border-top: 2px dashed black;
+		}
+		
+	
+	#seats-t, #votes-t {
+		font-size: 100%;
+		}
+		
+	.blocks {
+		width: 300px;
+		}
+
+	}
+}

@@ -1,0 +1,29 @@
+table {
+	border-spacing: 15px 2px;
+	font-size: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+td {
+	padding: 0px;
+	}
+	
+#commons {
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+.table_head {
+	text-align: center;
+	font-size: 150%;
+	}
+	
+.party_name {
+	text-align: right;
+	white-space: nowrap;
+}
+	
+.num_cell {
+	text-align: center;
+}
